@@ -1,0 +1,22 @@
+{
+  "name": "async-string-replace",
+  "description": "Async String.prototype.replace()",
+  "main": "index.js",
+  "authors": [
+    "Cesar Kastli <cesarkastli@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/cizar/async-string-replace",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

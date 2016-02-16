@@ -1,0 +1,20 @@
+{
+  "name": "async-string-replace",
+  "version": "1.0.0",
+  "description": "Async String.prototype.replace()",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cizar/async-string-replace.git"
+  },
+  "keywords": [],
+  "author": "Cesar Kastli <cesarkastli@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cizar/async-string-replace/issues"
+  },
+  "homepage": "https://github.com/cizar/async-string-replace#readme"
+}
