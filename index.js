@@ -1,8 +1,8 @@
-;(function (global, factory) {
+;(function (name, global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined'
     ? module.exports = factory() : typeof define === 'function' && define.amd
-      ? define(factory) : global.moment = factory();
-}(this, function () {
+      ? define(factory) : global[name] = factory();
+}('asyncReplace', this, function () {
   'use strict';
   return function asyncReplace (string, search, replacer, done) {
     var re = new RegExp(search);
